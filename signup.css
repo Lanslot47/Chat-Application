@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+form{
+    height: 485px;
+    width: 510px;
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(98, 147, 190);
+}
+img{
+    height: 485px;
+    width: 510px;
+}
+h5{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+p{
+    font-family: sans-serif;
+    color: rgb(189, 185, 185);
+    font-size: 13px;
+    text-align: center;
+    margin-top: -20px;
+}
+input{
+    margin-top: 30px;
+    height: 20px;
+    padding: 10px;
+    width: 280px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    outline: none;
+}
+button{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    margin-left: 100px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(98, 147, 190);
+    background-color: rgb(98, 147, 190);
+}
+span{
+    font-size: 14px;
+    margin-left: 145px;
+}
+span a{
+    color: blue;
+}

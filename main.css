@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+.wrap input {
+    height: 10px;
+    width: 100px;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(198, 210, 216, 0.226);
+}
+
+.logo h1 {
+    color: rgba(198, 210, 216, 0.226);
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    margin-top: -20px;
+    background-color: rgba(198, 210, 216, 0.226);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #0000ff;
+    font: bold;
+    font-size: 17px;
+}
+
+.wrap {
+    margin-top: -10px;
+}
+
+.wrap .logo {
+    height: 60px;
+    width: 4%;
+    background-color: rgb(3, 36, 48);
+    margin-top: -8px;
+    margin-left: -3.8px;
+}
+
+.container .side-nav {
+    height: 427px;
+    width: 4%;
+    background-color: rgb(7, 45, 58);
+    margin-top: -426px;
+}
+
+.container .chat {
+    height: 373px;
+    width: 95.8%;
+    background-color: rgba(198, 210, 216, 0.226);
+    margin-left: 42px;
+    margin-top: 3px;
+    display: flex;
+}
+
+.container .chat .chat1 {
+    background-color: #fffdfd;
+    width: 20%;
+    height: 350px;
+    margin-top: 11px;
+    margin-left: 10px;
+    border-radius: 12px;
+    /* margin-left: 15px; */
+}
+
+.container .chat .chat2 {
+    background-color: #fffdfd;
+    width: 76%;
+    height: 350px;
+    margin-top: 11px;
+    margin-left: 10px;
+    border-radius: 12px;
+}
+
+.container .chat .chat2 .profile {
+    height: 60px;
+    width: 100%;
+    background-color: #6565f5;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.chat2 input{
+    width: 93%;
+    height: 33px;
+    margin-top: 250px;
+    border-radius: 3px;
+    border: 2px solid rgb(245, 239, 239);
+    background-color:  rgba(198, 210, 216, 0.226);
+    margin-left: 2px;
+}

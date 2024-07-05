@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="signup.css" />
+
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Chat-Application</h1>
+        <h5>Login your Account</h5>
+        <p>Let's get started. Have started in 30 days</p>
+        <input type="email" placeholder="Enter your E-mail" id="two" />
+        <input type="password"placeholder="Enter your password"id="three"/>
+        <button>Login</button><br />
+        <span>Don't have an account? <a href="signup.html">Signup</a></span>
+      </form>
+      <img src="image/pexels-anastasiya-gepp-1462630-removebg-preview.png" alt="" />
+    </div>
+    <script>
+      let form = document.querySelector("form");
+      let sdinput = document.querySelector("#two");
+      let tdinput = document.querySelector("#three");
+      let btn = document.querySelector('button')
+      let checkInput = function () {
+        let valF = ftinput.value; 
+        let valS = sdinput.value; 
+        let valT = tdinput.value; 
+        if (valF==="") {
+            alert('Username fill is empty')
+        }
+
+        else if(valS===""){
+            alert('Your Email Fill is Empty')
+        }
+        else if(valT===""){
+            alert('Your Password Fill is Empty')
+        }
+
+      };
+      btn.addEventListener('click', checkInput)
+    </script>
+  </body>
+</html>
